@@ -1,5 +1,5 @@
 import pickle
-bfile = open(r"E:\CS\File Handling\Binary Files\data.dat","rb+")
+bfile = open("data.dat","rb+")
 lst = []
 try:
     print("File data.dat stores these records:---")
