@@ -1,6 +1,6 @@
 # Write a program to get student data(roll no., name and marks) from user and write onto a binary file as long as user wants
 import pickle
-bfile = open(r"E:\CS\File Handling\Binary Files\data.dat","wb+")
+bfile = open("data.dat","wb+")
 stu = {}
 ans = 'y'
 count = 0
